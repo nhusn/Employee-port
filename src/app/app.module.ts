@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatNativeDateModule} from '@angular/material/core';
 import { ChartComponent } from './chart/chart.component';
 import { HighchartsChartModule } from 'highcharts-angular';
+import { UpdateAdminComponent } from './update-admin/update-admin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HighchartsChartModule } from 'highcharts-angular';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    ChartComponent
+    ChartComponent,
+    UpdateAdminComponent
   ],
   imports: [
     BrowserModule,

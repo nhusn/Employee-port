@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div style="height: 400px;" class="edit-admin border rounded shadow p-2 bg-warning">
-                    edit admin
+                <div style="height: 400px;" class="edit-admin border rounded shadow p-2">
+                    <app-update-admin (onAdminChange)="getUpdatedAdmin($event)" ></app-update-admin>
                 </div>
                 <div style="height: 150px; background: url('https://cdn.pixabay.com/photo/2015/10/29/14/39/web-1012469_1280.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; " class="border rounded shadow p-2b bg-dark text-light d-flex align-items-center justify-content-center">
                    <h2> <i class="fa-solid fa-users me-2"></i>Employee : {{employee_count}}</h2>
