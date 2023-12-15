@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class AdminApiService {
 
-  SERVER_URL = 'http://localhost:3000'
+  SERVER_URL = 'https://employee-port-server.onrender.com'
 
   constructor(private http:HttpClient) { }
 
